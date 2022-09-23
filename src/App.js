@@ -1,11 +1,13 @@
 import './App.css';
-import Product from './Pages/Product';
+import Cart from './Pages/Cart';
+// import Product from './Pages/Product';
+// import Register from './Pages/Register';
 // import Home from './Pages/Home';
 // import ProductList from './Pages/ProductList';
 
 function App() {
   return (
-    <Product />
+    <Cart />
   );
 }
 

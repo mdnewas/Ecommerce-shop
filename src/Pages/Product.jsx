@@ -4,7 +4,7 @@ import Navbar from "../Components/Navbar/Navbar";
 import Announcement from "../Components/Announcement/Announcement";
 import Newsletter from "../Components/Newsletter/Newsletter";
 import Footer from "../Components/Footer/Footer";
-import image from "../img//slider1.png";
+import image from "../img//slider1.webp";
 import { Add, Remove } from "@mui/icons-material";
 
 const Container = styled.div``;

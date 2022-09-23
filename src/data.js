@@ -1,17 +1,17 @@
-import slider1 from "./img/slider1.png";
-import slider2 from "./img/slider2.png";
+import slider1 from "./img/slider1.webp";
+import slider2 from "./img/slider2.webp";
 import slider3 from "./img/slider3.png";
-import catagories1 from "./img/catagories1.png";
-import catagories2 from "./img/catagories2.png";
-import catagories3 from "./img/catagories3.png";
-import bag1 from "./img/bag1.png";
-import bag2 from "./img/bag2.png";
-import bag3 from "./img/bag3.png";
-import bag4 from "./img/bag4.png";
-import bag5 from "./img/bag5.png";
-import bag6 from "./img/bag6.png";
-import tshirt1 from "./img/tshirt1.png";
-import tshirt2 from "./img/tshirt2.png";
+import catagories1 from "./img/catagories1.webp";
+import catagories2 from "./img/catagories2.webp";
+import catagories3 from "./img/catagories3.webp";
+import bag1 from "./img/bag1.webp";
+import bag2 from "./img/bag2.webp";
+import bag3 from "./img/bag3.webp";
+import bag4 from "./img/bag4.webp";
+import bag5 from "./img/bag5.webp";
+import bag6 from "./img/bag6.webp";
+import tshirt1 from "./img/tshirt1.webp";
+import tshirt2 from "./img/tshirt2.webp";
 
 export const sliderItems = [
   {
