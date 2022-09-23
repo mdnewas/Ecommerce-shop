@@ -6,17 +6,24 @@ import Newsletter from "../Components/Newsletter/Newsletter";
 import Footer from "../Components/Footer/Footer";
 
 import styled from "styled-components";
+import { mobile } from "../responsive";
 
 const Container = styled.div``;
 
 const Title = styled.h1`
   margin: 20px;
-`;
+  `;
 
 const FilterContainer = styled.div`
   display: flex;
   justify-content: space-between;
-`;
+  `;
+
+const Filter = styled.div`
+    margin: 20px;
+
+    ${mobile({ margin:"10px 20px", display:'flex', flexDirection:'column'})}
+  `;
 
 const FilterText = styled.span`
   font-size: 20px;
@@ -24,12 +31,10 @@ const FilterText = styled.span`
   margin-right: 20px;
 `;
 
-const Filter = styled.div`
-  margin: 20px;
-`;
 
 const Select = styled.select`
   padding: 5px;
+  margin: 3px;
   margin-right: 15px;
 `;
 

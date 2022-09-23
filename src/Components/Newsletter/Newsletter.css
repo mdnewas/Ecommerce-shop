@@ -41,3 +41,28 @@
     border: none;
 }
 
+@media screen and (max-width:480px) {
+    .newsContainer{
+        height: 45vh;
+    }
+    
+    .nTitle{
+        font-size: 40px;
+        margin: 20px;
+    }
+    .nDesc{
+        display: flex;
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 20px;
+        padding: 10px;
+        text-align: center;
+    
+    }
+    .nInput{
+        width: 80%;
+        height: 40px;
+    }
+    
+}
+

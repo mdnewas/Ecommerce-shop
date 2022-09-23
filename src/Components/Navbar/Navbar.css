@@ -56,3 +56,31 @@
     cursor: pointer;
     margin-left: 25px;
 }
+
+@media screen and (max-width:480px) {
+    .container{
+        height: 50px;
+    }
+    .wrapper{
+        padding: 10px 0px;
+    }
+    .nav-left>span{
+        display: none;
+    }
+    .input{
+        width: 50px;
+    }
+    .logo {
+        font-size: 14px;
+        padding: 0px 10px;
+    }
+
+    .nav-right{
+        flex: 2;
+        justify-content: center;
+    }
+    .menu-item{
+        font-size: 14px;
+        margin-left: 10px;
+    }
+}

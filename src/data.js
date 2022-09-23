@@ -1,6 +1,6 @@
 import slider1 from "./img/slider1.webp";
 import slider2 from "./img/slider2.webp";
-import slider3 from "./img/slider3.png";
+import slider3 from "./img/slider3.webp";
 import catagories1 from "./img/catagories1.webp";
 import catagories2 from "./img/catagories2.webp";
 import catagories3 from "./img/catagories3.webp";

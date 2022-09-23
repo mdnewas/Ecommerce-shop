@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import register from "../img/register2.jpg";
+import register from "../img/register2.webp";
+import { mobile } from "../responsive";
 
 const Container = styled.div`
   width: 100vw;
@@ -32,15 +33,19 @@ const Input = styled.input`
   min-width: 40%;
   margin: 20px 10px 0px 0px;
   padding: 10px;
+
 `;
 const ButtonContainer = styled.div`
   display: flex;
   flex-direction: column;
+  ${mobile({alignItems: 'center' ,  })}
+}
 `;
 
 const Agreement = styled.span`
   font-size: 14px;
   margin: 20px 0px;
+  display: flex;
 `;
 
 const Button = styled.button`
@@ -50,6 +55,7 @@ const Button = styled.button`
   background-color: teal;
   color: white;
   cursor: pointer;
+  ${mobile({width:"90%" ,padding:"5px", fontSize:'20px',fontWeight:'bold'})}
 `;
 
 const Register = () => {
